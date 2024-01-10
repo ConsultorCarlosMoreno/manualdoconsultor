@@ -1463,8 +1463,9 @@
   J --&gt; Y[Fim]</code></pre></p>
 <hr />
 <p><mark>Contas a Pagar: Add-on BankPlus</mark></p>
-<p>Obs.: Processo abaixo é de forma manual, sem nenhuma automoção.
-<pre class="mermaid"><code>graph LR
+<pre><code>    Obs.: Processo abaixo é de forma manual, sem nenhuma automoção.
+</code></pre>
+<p><pre class="mermaid"><code>graph LR
   A[Incio] --&gt; B[Gerar relatorio de contas a pagar];
   B --&gt; C{Relatorio gerado?};
   C --&gt; |Sim| D[Administração de Pagamentos]
@@ -1481,7 +1482,12 @@
   P --&gt; O[Importar arquivo de retorno]
   O --&gt; Z[Importar Extrato OfX]
   Z --&gt; S[Reconciliação]
-  S --&gt; Y[Fim]</code></pre></p>
+  S --&gt; Y[Fim]</code></pre>
+Segue links para configuração do BankPlus:</p>
+<ul>
+<li><a href="https://consultorcarlosmoreno.github.io/manualdoconsultor/Administra%C3%A7%C3%A3o/Add-ons/%5BInvent%5D%20BankPlus/Pagamento/Configura%C3%A7%C3%B5es/Configura%C3%A7%C3%A3o%20de%20Dados%20Bancarios/"><code>Configuração de Dados Bancariosão</code></a></li>
+<li><a href="https://consultorcarlosmoreno.github.io/manualdoconsultor/Administra%C3%A7%C3%A3o/Add-ons/%5BInvent%5D%20BankPlus/Pagamento/    Configura%C3%A7%C3%B5es/Contratos%20de%20Pagamento/"><code>Contratos de Pagamento</code></a></li>
+</ul>
 <hr />
 <p><mark>Contas a Pagar: Add-on BankPlus Com Van Bancaria</mark></p>
 <p>Obs.: Processo abaixo, o serviço pega o arquivo de remessa, envia para o banco e o banco retorna o arquivo de retorno através do serviço, assim importando automaticamente.</p>
